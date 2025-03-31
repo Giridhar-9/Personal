@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Red+Rose:wght@300..700&display=swap');
+*{
+    font-family: 'Orbitron','Lucida Sans';
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    height: 100vh;
+}
+.dark{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px;
+}
+.btn{
+    position: absolute;
+    top: 238.78px;
+    left: 881.125px;
+    background-color: black;
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+}
+.outer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 30vh;
+    width: 35vw;
+    background-color: white;
+    padding: 0px;
+    border: 5px solid black;
+    border-radius: 135px;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 135px;
+    gap: 5px;
+    height: 20vh;
+    width: 30vw;
+    font-size: 85px;
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
